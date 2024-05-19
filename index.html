@@ -10,7 +10,8 @@
 
 <body
     class="absolute inset-0 h-full w-full bg-gray-100 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]">
-    <div class="min-h-screen flex flex-col items-center gap-5 pt-6">
+    <!-- Linktree Content -->
+    <div class="min-h-screen flex flex-col items-center gap-5 pt-6 mx-5 md:mx-0">
         <!-- Header  -->
         <div class="flex flex-col items-center justify-center w-full gap-2">
             <img src="images/logo.jpg" alt="OS DEV LOGO"
@@ -29,7 +30,7 @@
                 Events
             </h1>
             <a href="https://photos.google.com/share/AF1QipMh17YP6dDzGi1z_zQcBv1Tsur8BEhivOaq_8C_f__Yw_6_46uQgpiUioLZEwQY4w/photo/AF1QipNk1331gwKubfNJ4t57IO1f-LXtR6JADQ18IQ7N?key=TDZhaVAyZ2dpbW8weUFkOXRjX0lFZVFRc3QxNEhR"
-                class="text-white bg-blue-500 hover:bg-blue-400 drop-shadow-sm font-medium rounded-lg text-md text-center w-96 p-3 transition duration-300 ease-in-out transform hover:scale-105"
+                class="text-white bg-blue-500 hover:bg-blue-400 drop-shadow-sm font-medium rounded-lg text-md text-center w-80 md:w-96 p-3 transition duration-300 ease-in-out transform hover:scale-105"
                 target="_blank">
                 Hacktoberfest Webinar'23
             </a>
@@ -41,12 +42,12 @@
                 Resources
             </h1>
             <a href="https://docs.google.com/presentation/d/14hjsT6leG3FncYQxfzJx3YahIkTYCu9Y/edit?usp=sharing&ouid=109293468232766314301&rtpof=true&sd=true"
-                class="text-white bg-blue-500 hover:bg-blue-400 font-medium rounded-lg text-md text-center w-96 p-3 transition duration-300 ease-in-out transform hover:scale-105"
+                class="text-white bg-blue-500 hover:bg-blue-400 font-medium rounded-lg text-md text-center w-80 md:w-96 p-3 transition duration-300 ease-in-out transform hover:scale-105"
                 target="_blank">
                 Hacktoberfest Webinar PPT'23
             </a>
             <a href="https://www.canva.com/design/DAF-6mRDj7c/ULcP-Oo7dZB5T31i8xJ1gQ/edit?utm_content=DAF-6mRDj7c&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
-                class="text-white bg-blue-500 hover:bg-blue-400 font-medium rounded-lg text-md text-center w-96 p-3 transition duration-300 ease-in-out transform hover:scale-105"
+                class="text-white bg-blue-500 hover:bg-blue-400 font-medium rounded-lg text-md text-center w-80 md:w-96 p-3 transition duration-300 ease-in-out transform hover:scale-105"
                 target="_blank">
                 Open Source & Gen AI Seminar PPT'23
             </a>
@@ -58,7 +59,7 @@
                 Feedback
             </h1>
             <a href="https://forms.gle/g8EMDEJ1FReyDbEv6"
-                class="text-white bg-blue-500 hover:bg-blue-400 font-medium rounded-lg text-md text-center w-96 p-3 transition duration-300 ease-in-out transform hover:scale-105"
+                class="text-white bg-blue-500 hover:bg-blue-400 font-medium rounded-lg text-md text-center w-80 md:w-96 p-3 transition duration-300 ease-in-out transform hover:scale-105"
                 target="_blank">
                 Improve Community
             </a>
@@ -66,28 +67,39 @@
 
         <!-- Footer  -->
         <div class="flex flex-col items-center justify-center w-full">
-            <div class="flex flex-row items-center justify-center gap-2 w-full"><a
-                    href="https://github.com/osdevcommunity/" target="_blank"><img src="images/Github.jpeg" width="25px"
-                        height="25px" alt="Github"></a>
-                <a href="https://www.linkedin.com/company/os-community/" target="_blank"><img src="images/LinkedIn.jpeg"
-                        width="25px" height="25px" alt="LinkedIn"></a>
-                <a href="https://twitter.com/os_community1" target="_blank"><img src="images/X.png" width="25px"
-                        height="25px" alt="X"></a>
-                <a href="https://t.me/os_Community" target="_blank"><img src="images/telegram.png" width="25px"
-                        height="25px" alt="Telegram"></a>
-                <a href="https://whatsapp.com/channel/0029VaKTEnK3gvWgGcht5J2R" target="_blank"><img
-                        src="images/whatsapp.png" width="25px" height="25px" alt="Whatsapp Channel"></a>
-                <a href="https://chat.whatsapp.com/LPhWYzQWUOpAV6G3xEeJf3" target="_blank"><img
-                        src="images/whatsapp.png" width="25px" height="25px" alt="Whatsapp Community 1"></a>
-                <a href="https://chat.whatsapp.com/GjS6avrIVsMJY4b5g73s7r" target="_blank"><img
-                        src="images/whatsapp.png" width="25px" height="25px" alt="Whatsapp Community 2"></a>
-                <a href="https://www.commudle.com/communities/os-dev-community" target="_blank"><img
-                        src="images/commudle.jpeg" width="25px" height="25px" alt="Commudle"></a>
-                <a href="mailto:os.devcommunity@gmail.com" target="_blank"><img src="images/Gmail.png" width="25px"
-                        height="25px" alt="Send an email"></a>
-            </div>
             <p class="text-gray-700 text-lg text-center mt-5">2024 &copy; OS.dev Community</p>
         </div>
+    </div>
+
+    <!-- Icons  -->
+    <div class="fixed left-0 top-1/2 transform -translate-y-1/2 flex flex-col items-center space-y-2">
+        <a href="https://github.com/osdevcommunity/" target="_blank">
+            <img src="images/Github.jpeg" class="w-8 h-8 md:w-10 md:h-10 transition-transform duration-300 hover:scale-110 active:scale-125" alt="Github">
+        </a>
+        <a href="https://www.linkedin.com/company/os-community/" target="_blank">
+            <img src="images/LinkedIn.jpeg" class="w-8 h-8 md:w-10 md:h-10 transition-transform duration-300 hover:scale-110 active:scale-125" alt="LinkedIn">
+        </a>
+        <a href="https://twitter.com/os_community1" target="_blank">
+            <img src="images/X.png" class="w-8 h-8 md:w-10 md:h-10 transition-transform duration-300 hover:scale-110 active:scale-125" alt="X">
+        </a>
+        <a href="https://t.me/os_Community" target="_blank">
+            <img src="images/telegram.png" class="w-8 h-8 md:w-10 md:h-10 transition-transform duration-300 hover:scale-110 active:scale-125" alt="Telegram">
+        </a>
+        <a href="https://whatsapp.com/channel/0029VaKTEnK3gvWgGcht5J2R" target="_blank">
+            <img src="images/whatsapp.png" class="w-8 h-8 md:w-10 md:h-10 transition-transform duration-300 hover:scale-110 active:scale-125" alt="Whatsapp Channel">
+        </a>
+        <a href="https://chat.whatsapp.com/LPhWYzQWUOpAV6G3xEeJf3" target="_blank">
+            <img src="images/whatsapp.png" class="w-8 h-8 md:w-10 md:h-10 transition-transform duration-300 hover:scale-110 active:scale-125" alt="Whatsapp Community 1">
+        </a>
+        <a href="https://chat.whatsapp.com/GjS6avrIVsMJY4b5g73s7r" target="_blank">
+            <img src="images/whatsapp.png" class="w-8 h-8 md:w-10 md:h-10 transition-transform duration-300 hover:scale-110 active:scale-125" alt="Whatsapp Community 2">
+        </a>
+        <a href="https://www.commudle.com/communities/os-dev-community" target="_blank">
+            <img src="images/commudle.jpeg" class="w-8 h-8 md:w-10 md:h-10 transition-transform duration-300 hover:scale-110 active:scale-125" alt="Commudle">
+        </a>
+        <a href="mailto:os.devcommunity@gmail.com" target="_blank">
+            <img src="images/Gmail.png" class="w-8 h-8 md:w-10 md:h-10 transition-transform duration-300 hover:scale-110 active:scale-125" alt="Send an email">
+        </a>
     </div>
 </body>
 
